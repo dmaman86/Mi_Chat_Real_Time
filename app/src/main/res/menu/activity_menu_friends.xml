@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Logout"
+        android:id="@+id/menu_logout" />
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/silent_mode"
+            android:actionViewClass="android.widget.RadioButton"
+            android:title="silent mode"
+            android:checked="false"
+            />-->
+    </group>
+    <!--<item
+        android:checkable="true"
+        android:actionViewClass="android.widget.RadioButton"
+        android:title="silent mode"
+        android:id="@+id/silent_mode"/>-->
+
+</menu>

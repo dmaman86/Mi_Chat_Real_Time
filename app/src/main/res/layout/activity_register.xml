@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_100"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/new_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User_Name"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/pass_newUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/em_newUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/name_newUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/lastName_newUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textColorHint="@color/white"
+        android:inputType="phone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/day_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="day"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColorHint="@color/white"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/month_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="month"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColorHint="@color/white"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/year_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="year"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColorHint="@color/white"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:hint="save"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+</LinearLayout>

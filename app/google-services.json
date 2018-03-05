@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "450796708935",
+    "firebase_url": "https://new-chat-f5e20.firebaseio.com",
+    "project_id": "new-chat-f5e20",
+    "storage_bucket": "new-chat-f5e20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450796708935:android:cf22b5e07d2611e1",
+        "android_client_info": {
+          "package_name": "com.example.david_maman_c.mi_chat_real_time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450796708935-4bg75k8bdhmnb8u1llo0l86m9o4edk7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFq1lV8JFIC2KpiX37mkQH9E85DVgcWvs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

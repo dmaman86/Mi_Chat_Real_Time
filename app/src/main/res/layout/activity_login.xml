@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_100"
+    tools:context="com.example.david_maman_c.mi_chat_real_time.Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:src="@drawable/logo_app"
+        android:layout_gravity="center"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="166dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat Real Time"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:layout_gravity="center"
+            android:id="@+id/textView"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/eTuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/grey_100"
+            android:hint="User"
+            android:drawableLeft="@drawable/ic_action_user"/>
+        <EditText
+            android:id="@+id/eTpasword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/grey_100"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_action_lock_closed"/>
+        <RadioButton
+            android:id="@+id/RBconnected"
+            android:layout_gravity="center"
+            android:hint="Keep me connected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bTlogin"
+            android:theme="@style/ButtonColors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Login"
+            android:textColorHint="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:hint="new user ?"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>
